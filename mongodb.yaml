@@ -1,7 +1,7 @@
 - name: Install MangoDB component
   hosts: mongodb
   become: yes
-  taasks:
+  tasks:
   - name: copy mongo repo to yum.repos.d
     ansible.builtin.copy:
       src: mongodb.repo
