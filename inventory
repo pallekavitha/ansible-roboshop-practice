@@ -1,0 +1,8 @@
+[mongodb]
+mongodb.joindevops.live
+
+[catalogue]
+catalogue.joindevops.live
+
+[web]
+web.joindevops.live
