@@ -10,3 +10,4 @@
     ansible.builtin.yum:
       name: mongodb-org
       state: installed
+      ignore_errors: true
