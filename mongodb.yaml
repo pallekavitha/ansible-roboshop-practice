@@ -1,4 +1,4 @@
-- name: Install MangoDB component
+- name: Install Mangodb component
   hosts: mongodb
   become: yes
   tasks:
@@ -6,7 +6,7 @@
     ansible.builtin.copy:
       src: mongodb.repo
       dest: /etc/yum.repos.d/mongo.repo
-  - name: Install MongoDB
+  - name: Install Mongodb 
     ansible.builtin.yum:
       name: mongodb-org
       state: installed
